@@ -31,8 +31,4 @@ public class SynchronizedDictionary <Key: Hashable, Value> {
     func getSize() -> Int {
         return dict.count
     }
-    
-    func containValue(for key: Key) -> Bool {
-        return dict.has(key)
-    }
 }
